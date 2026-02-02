@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Luri🤍</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff6fb;
+    color: #333;
+}
+
+.container {
+    max-width: 720px;
+    margin: auto;
+    padding: 30px 20px 60px;
+}
+
+h1, .subtitle {
+    text-align: center;
+}
+
+.subtitle {
+    opacity: 0.8;
+    margin-bottom: 35px;
+}
+
+.flip-card {
+    background: transparent;
+    width: 100%;
+    height: 260px;
+    perspective: 1000px;
+    margin-bottom: 28px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    backface-visibility: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+.flip-card-front {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.flip-card-back {
+    background: #ffffff;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back p {
+    margin: 0 0 12px;
+    font-size: 0.95rem;
+}
+
+/* Spotify audio */
+iframe {
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>For luru🤍</h1>
+<p class="subtitle">Tap any card. Sabai kura yahi chha.</p>
+
+<!-- CARD 1 -->
+<div class="flip-card" onclick="handleFlip(this)">
+<div class="flip-card-inner">
+<div class="flip-card-front">🌙 When timi malai miss garchheu</div>
+<div class="flip-card-back">
+<p>Yo geet sunnu ani malai yaad garnu. Ma pani talai miss gardai hunchhu.</p>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2Fv2injs4qAm8mJBGaxVKU?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+
+<!-- CARD 2 -->
+<div class="flip-card" onclick="handleFlip(this)">
+<div class="flip-card-inner">
+<div class="flip-card-front">😔 When timi low feel garchheu</div>
+<div class="flip-card-back">
+<p>Yo pani sangai paar garaula. Timi ekli chhainau.</p>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5bHDGWyIFML1LYXZWTD5MF?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+
+<!-- CARD 3 -->
+<div class="flip-card" onclick="handleFlip(this)">
+<div class="flip-card-inner">
+<div class="flip-card-front">😌 When timlai chup-chap basna man lagchha</div>
+<div class="flip-card-back">
+<p>Sabai kura bolnai pardaina. Yo geet gungunauchu timi basera sunnu.</p>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0KPfCIN01jahtEWhVkSMM0?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+
+<!-- CARD 4 -->
+<div class="flip-card" onclick="handleFlip(this)">
+<div class="flip-card-inner">
+<div class="flip-card-front">🌧️ When timilai runa man lagchha</div>
+<div class="flip-card-back">
+<p>Ronu kamjori hoina. Timi roye pani, ma timilai strong nai dekhchhu.</p>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3hkC9EHFZNQPXrtl8WPHnX?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+
+<!-- CARD 5 -->
+<div class="flip-card" onclick="handleFlip(this)">
+<div class="flip-card-inner">
+<div class="flip-card-front">💭 When timi overthink garchheu</div>
+<div class="flip-card-back">
+<p>Sabai soch sacho hudaina. Tara hamro maya sacho chha.</p>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5QwCLPg6TdMcJrkoSElQhd?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+
+<!-- CARD 6 -->
+<div class="flip-card" onclick="handleFlip(this)">
+<div class="flip-card-inner">
+<div class="flip-card-front">🌙 When timlai nidra aaudaina</div>
+<div class="flip-card-back">
+<p>Phone side ma rakha. Aankha banda gara. Ma yaad ma chhu.</p>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5EuI6Zyz3kuFiv4JLhhbR1?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+
+<!-- CARD 7 -->
+<div class="flip-card" onclick="handleFlip(this)">
+<div class="flip-card-inner">
+<div class="flip-card-front">☀️ When timi aafulai sano thanchau</div>
+<div class="flip-card-back">
+<p>Yo feeling yaad rakh. Ta jasto chhes, tyo nai enough chha. I will always cheer you on.</p>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/70b6wBQA3H4LqsXkAhaS1X?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+
+<!-- CARD 8 -->
+<div class="flip-card" onclick="handleFlip(this)">
+<div class="flip-card-inner">
+<div class="flip-card-front">💞 When timi hamro future sochchheu</div>
+<div class="flip-card-back">
+<p>Future perfect hunu pardaina. Ta sanga hunu nai kaafi chha.</p>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0tgVpDi06FyKpA1z0VMD4v?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+
+<footer>
+Made with maya 🤍 Tero Khadus 😁
+</footer>
+
+</div>
+
+<script>
+function pauseAll() {
+    document.querySelectorAll('iframe').forEach(f => {
+        f.src = f.src;
+    });
+}
+
+function handleFlip(card) {
+    pauseAll();
+    document.querySelectorAll('.flip-card').forEach(c => {
+        if (c !== card) c.classList.remove('flipped');
+    });
+    card.classList.toggle('flipped');
+}
+</script>
+
+</body>
+</html>
